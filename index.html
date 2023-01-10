@@ -1,58 +1,151 @@
-<html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>My Resume</title>
-    <title>Sitaram Teki</title>
-	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
-	<style>
-		    body { 
-		     background: rgb(124,193,172); no-repeat center center fixed; 
-		     -webkit-background-size: cover;
-		     -moz-background-size: cover;
-		     -o-background-size: cover;
-		     background-size: cover;
-			 font-family: 'Roboto Condensed', sans-serif;
-		   }
+<!DOCTYPE Html>
+<Html Lang="En">
+  <Head>
+    <Meta Charset="UTF-8" />
+    <Title>Personal Portfolio Website</Title>
+    <!----CSS Link----->
+   <!-- <Link Rel="Stylesheet" Href="Style.Css" />-->
+    <link href='Https://Fonts.Googleapis.Com/Css2?Family=Poppins:wght@400;500;600;700&Display=Swap' rel='stylesheet' type='text/css'>
+    <style>
+* {
+  Margin: 0;
+  Padding: 0;
+  Box-Sizing: Border-Box;
+  Font-Family: "Poppins", Sans-Serif;
+}
+A {
+  Text-Decoration: None;
+}
+.Hero {
+  Width: 100%;
+  Height: 100vh;
+  Background: Url(Img/Bg.Png);
+  Background-Size: Cover;
+}
+Nav {
+  Display: Flex;
+  Align-Items: Center;
+  Justify-Content: Space-Between;
+  Padding: 30px 100px;
+}
+.Logo {
+  Max-Height: 60px;
+}
+Nav Ul Li {
+  List-Style: None;
+  Display: Inline-Block;
+  Padding: 10px 20px;
+}
+Nav Ul Li A {
+  Color: #1d1d24;
+  Position: Relative;
+  Padding: 5px 0;
+}
+Nav Ul Li A:hover {
+  Color: #Fd4766;
+}
+Nav Ul Li A:after {
+  Content: "";
+  Position: Absolute;
+  Left: 0;
+  Width: 0;
+  Height: 3px;
+  Background: #Fd4766;
+  Transition: 0.3s;
+  Bottom: 0;
+}
+Nav Ul Li A:hover:after {
+  Width: 100%;
+}
+.Btn {
+  Color: #Fff;
+  Font-Size: 16px;
+  Text-Transform: Uppercase;
+  Letter-Spacing: 2px;
+  Padding: 16px 40px;
+  Border-Radius: 500px;
+  Display: Inline-Block;
+  Font-Weight: 500;
+  Transition: All 0.4s Ease-In-Out;
+  Background-Size: 152% 100%;
+  Background: #Fd4766;
+  Border: 2px Solid #Fd4766;
+}
+.Btn:hover {
+  Background: Transparent;
+  Border-Color: #Fd4766;
+  Color: #Fd4766;
+}
+.Content {
+  Position: Absolute;
+  Top: 35%;
+  Left: 8%;
+}
+.Content .Title {
+  Color: #0a0a0a;
+  Font-Size: 15px;
+  Text-Transform: Uppercase;
+  Letter-Spacing: 4px;
+  Display: Inline-Block;
+  Margin-Bottom: 20px;
+  Background: Linear-Gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #Fd4766 79.69%
+  );
+  -Webkit-Background-Clip: Text;
+  -Webkit-Text-Fill-Color: Transparent;
+}
+.Content H1 {
+  Color: #1f1f25;
+  Font-Size: 75px;
+  Font-Weight: 900;
+  Line-Height: 90px;
+  Text-Transform: Inherit;
+  Width: 70%;
+}
+.Content H1 Span {
+  Color: #Fd4766;
+}
+.Content P {
+  Width: 55%;
+  Color: #202020;
+  Margin-Top: 25px;
+  Margin-Bottom: 30px;
+}
+    </style>
+    
+  </Head>
+  <Body>
+    <Div Class="Hero">
+      <Nav>
+        <Img Src="https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_migration_introduction/b5c202960f99f458ada82441285fb64c_badge.png" Class="Logo" />
+        <Ul>
+          <Li><A Href="#">Home</A></Li>
+          <Li><A Href="#">About</A></Li>
+          <Li><A Href="#">Service</A></Li>
+          <Li><A Href="#">Portfolio</A></Li>
+          <Li><A Href="#">Blog</A></Li>
+          <Li><A Href="#">Contact</A></Li>
+        </Ul>
+        <A Href="#" Class="Btn">Resume</A>
+      </Nav>
 
-		   .content-top {
-			   font-size:24px;
-			   font-weight:700;
-			   color:Black;
-		       overflow: hidden;
-			   margin-top:40px;
-			   margin-left:40px;
-			   margin-right:40px;
-			   margin-bottom:0px;
-		       padding: 20px;
-		       background: White;
-		       background: rgb(124,193,172);
-		       text-align: Center;
-		   }
+      <Div Class="Content">
+        <Span Class="Title">Salesforce developer</Span>
+        <H1>Hello, I’m <Span>Sitaram Teki</Span></H1>
+        <P>
+          My name is Sitaram Teki and I am a Salesforce developer with 5+ years of experience in Salesforce and 12+ years in the IT industry.
+        </P>
+        <P></p>
 
-		   .content {			   
-			   color:Black;
-			   font-size:22px;
-			   margin-top:0px;
-			   margin-left:40px;
-			   margin-right:40px;
-			   margin-bottom:40px;
-		       padding: 20px;
-		       background: rgb(124,193,172);
-		       text-align: left;
-		   }
-	</style>
-</head>
-<body>
-	<div class="content-top ">WELCOME TO MY PERSONAL WEBSITE!</div>
-	<div class="content">
-	<p>My name is Sitaram Teki and I am a Salesforce developer with 5+ years of experience in Salesforce and 12+ years in the IT industry.</p>
-
-	<p>I specialize in developing custom solutions on the Salesforce platform using Apex, Lightning, and LWC. I have experience working with a variety of Salesforce products including Sales Cloud, Experience Cloud, and Marketing Cloud.</p>
+	<p>I specialize in developing custom solutions on the Salesforce platform using Apex, Lightning, and LWC. I have experience working with a variety of Salesforce products including Sales Cloud, Experience Cloud, and Marketing Cloud.</P>
 
 	<p>I am highly skilled in customizing Salesforce to meet the specific needs of my clients and have a proven track record of delivering projects on time and within budget. In addition to my technical skills, I am also a strong communicator and am able to work effectively with clients and cross-functional teams.</p>
-
-	<h3>Some of the services that I offer include:</h3>
-      <ul>
+        <h3>Some of the services that I offer include:</h3>
+        <br>
+        <ul>
 	  <li>Custom development on the Salesforce platform</li>
 	  <li>Integration of Salesforce with external systems</li>
 	  <li>Apex development</li>
@@ -60,8 +153,9 @@
 	  <li>Customization of Salesforce standard objects</li>
 	  <li>Lightning Aura/LWC Component development</li>
 	  <li>Experience Cloud Sites</li>
-	  </ul>
-	<h3>My Experience:</h3>
+	  <br>
+
+	  <h3>My Experience:</h3>
   <p>I have been working with Salesforce since 5+, and have a deep understanding of the platform and its capabilities. I have experience working on both large enterprise projects and smaller scale projects, and am comfortable working with different industries including Telcome, Banking, and Shipping,E-commerce.</p>
 <p>Throughout my career, I have been involved in all aspects of the development process, from requirements gathering and analysis to deployment and maintenance. My technical skills are always evolving as I keep track of the latest Salesforce advancements and features.
 
@@ -77,11 +171,11 @@ I have achieved several certifications in Salesforce including:
 <p>If you are looking for a Salesforce developer to help take your business to the next level, please don't hesitate to contact me. I would be happy to discuss your project and provide a free consultation.
 
 Thank you for visiting my website!</p>
-
-       
-	</div>
-
-
-
-</body>
-</html> 
+	  </ul>
+	   <br>
+	  <br>
+        <A Href="#" Class="Btn">Download CV</A>
+      </Div>
+    </Div>
+  </Body>
+</Html>
