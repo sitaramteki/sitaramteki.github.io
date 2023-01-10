@@ -12,17 +12,17 @@
   Padding: 0;
   Box-Sizing: Border-Box;
   Font-Family: "Poppins", Sans-Serif;
-  background-color:rgb(222,242,255);
+  background-color :rgb(222,242,255);
 }
 A {
   Text-Decoration: None;
 }
-.Hero {
+<!--.Hero {
   Width: 100%;
   Height: 100vh;
-  Background: Url(Img/Bg.Png);
+  Background: Url(https://trailhead.salesforce.com/assets/home/hero/…3e2c5faa264446dfe1ab689f1dbf2efc4cb7fdfa2c413.png);
   Background-Size: Cover;
-}
+}-->
 Nav {
   Display: Flex;
   Align-Items: Center;
@@ -84,9 +84,9 @@ Nav Ul Li A:hover:after {
 }
 .Content .Title {
   Color: #0a0a0a;
-  Font-Size: 15px;
+  Font-Size: 50px;
   Text-Transform: Uppercase;
-  Letter-Spacing: 4px;
+  Letter-Spacing: 5px;
   Display: Inline-Block;
   Margin-Bottom: 20px;
   Background: Linear-Gradient(
@@ -95,9 +95,30 @@ Nav Ul Li A:hover:after {
     #7644ff 50.19%,
     #Fd4766 79.69%
   );
+  
+
   -Webkit-Background-Clip: Text;
   -Webkit-Text-Fill-Color: Transparent;
 }
+
+ .Title1 {
+  Color: #0a0a0a;
+  Font-Size: 30px;
+  Text-Transform: Uppercase;
+  Letter-Spacing: 5px;
+  Display: Inline-Block;
+  Margin-Bottom: 20px;
+  Margin-Top: 20px;
+  Background: Linear-Gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #Fd4766 79.69%
+  );
+-Webkit-Background-Clip: Text;
+  -Webkit-Text-Fill-Color: Transparent;
+  }
+
 .Content H1 {
   Color: #1f1f25;
   Font-Size: 75px;
@@ -144,7 +165,7 @@ Nav Ul Li A:hover:after {
 	<p>I specialize in developing custom solutions on the Salesforce platform using Apex, Lightning, and LWC. I have experience working with a variety of Salesforce products including Sales Cloud, Experience Cloud, and Marketing Cloud.</P>
 
 	<p>I am highly skilled in customizing Salesforce to meet the specific needs of my clients and have a proven track record of delivering projects on time and within budget. In addition to my technical skills, I am also a strong communicator and am able to work effectively with clients and cross-functional teams.</p>
-        <h3>Some of the services that I offer include:</h3>
+        <h3 Class="Title1">Services:</h3>
         <br>
         <ul>
 	  <li>Custom development on the Salesforce platform</li>
@@ -154,25 +175,27 @@ Nav Ul Li A:hover:after {
 	  <li>Customization of Salesforce standard objects</li>
 	  <li>Lightning Aura/LWC Component development</li>
 	  <li>Experience Cloud Sites</li>
+       </ul>
 	  <br>
 
-	  <h3>My Experience:</h3>
+	  <h3 Class="Title1">My Experience:</h3>
   <p>I have been working with Salesforce since 5+, and have a deep understanding of the platform and its capabilities. I have experience working on both large enterprise projects and smaller scale projects, and am comfortable working with different industries including Telcome, Banking, and Shipping,E-commerce.</p>
 <p>Throughout my career, I have been involved in all aspects of the development process, from requirements gathering and analysis to deployment and maintenance. My technical skills are always evolving as I keep track of the latest Salesforce advancements and features.
 
-I have achieved several certifications in Salesforce including:
-   <ul>
+I have achieved several certifications in Salesforce including:  
+</p>
+ <h3 Class="Title1">Certifications:</h3>
+<ul>
 	  <li>Salesforce Certified Administrator</li>
 	  <li>Salesforce Certified Advanced Administrator</li>
 	  <li>Salesforce Certified Platform Developer I</li>
 	  </ul>
-</p>
 <p>Additionally, I have experience working with different development tools, such as SalesforceDX, Git, GitHub and Heroku, that can speed up the development process and improve the final product.</P>
 
 <p>If you are looking for a Salesforce developer to help take your business to the next level, please don't hesitate to contact me. I would be happy to discuss your project and provide a free consultation.
 
 Thank you for visiting my website!</p>
-	  </ul>
+	 
 	   <br>
 	  <br>
         <A Href="#" Class="Btn">Download CV</A>
