@@ -12,22 +12,27 @@
   Padding: 0;
   Box-Sizing: Border-Box;
   Font-Family: "Poppins", Sans-Serif;
-  background-color :rgb(222,242,255);
+
 }
+
+html{
+background: url("https://wallpaperaccess.com/full/3868446.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 A {
   Text-Decoration: None;
 }
-<!--.Hero {
-  Width: 100%;
-  Height: 100vh;
-  Background: Url(https://trailhead.salesforce.com/assets/home/hero/…3e2c5faa264446dfe1ab689f1dbf2efc4cb7fdfa2c413.png);
-  Background-Size: Cover;
-}-->
+
 Nav {
   Display: Flex;
   Align-Items: Center;
   Justify-Content: Space-Between;
   Padding: 30px 100px;
+   
 }
 .Logo {
   Max-Height: 60px;
@@ -38,7 +43,7 @@ Nav Ul Li {
   Padding: 10px 20px;
 }
 Nav Ul Li A {
-  Color: #1d1d24;
+  Color: white;
   Position: Relative;
   Padding: 5px 0;
 }
@@ -83,7 +88,7 @@ Nav Ul Li A:hover:after {
   Left: 8%;
 }
 .Content .Title {
-  Color: #0a0a0a;
+  Color: white;
   Font-Size: 50px;
   Text-Transform: Uppercase;
   Letter-Spacing: 5px;
@@ -102,7 +107,7 @@ Nav Ul Li A:hover:after {
 }
 
  .Title1 {
-  Color: #0a0a0a;
+  Color: White;
   Font-Size: 30px;
   Text-Transform: Uppercase;
   Letter-Spacing: 5px;
@@ -120,7 +125,7 @@ Nav Ul Li A:hover:after {
   }
 
 .Content H1 {
-  Color: #1f1f25;
+  Color: white;
   Font-Size: 75px;
   Font-Weight: 900;
   Line-Height: 90px;
@@ -132,14 +137,17 @@ Nav Ul Li A:hover:after {
 }
 .Content P {
   Width: 55%;
-  Color: #202020;
+  Color: White;
   Margin-Top: 25px;
   Margin-Bottom: 30px;
+}
+.text{
+color: white;
 }
     </style>
     
   </Head>
-  <Body>
+  <Body class="bg">
     <Div Class="Hero">
       <Nav>
         <Img Src="https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_migration_introduction/b5c202960f99f458ada82441285fb64c_badge.png" Class="Logo" />
@@ -160,14 +168,14 @@ Nav Ul Li A:hover:after {
         <P>
           My name is Sitaram Teki and I am a Salesforce developer with 5+ years of experience in Salesforce and 12+ years in the IT industry.
         </P>
-        <P></p>
+       
 
 	<p>I specialize in developing custom solutions on the Salesforce platform using Apex, Lightning, and LWC. I have experience working with a variety of Salesforce products including Sales Cloud, Experience Cloud, and Marketing Cloud.</P>
 
 	<p>I am highly skilled in customizing Salesforce to meet the specific needs of my clients and have a proven track record of delivering projects on time and within budget. In addition to my technical skills, I am also a strong communicator and am able to work effectively with clients and cross-functional teams.</p>
         <h3 Class="Title1">Services:</h3>
         <br>
-        <ul>
+        <ul class="text">
 	  <li>Custom development on the Salesforce platform</li>
 	  <li>Integration of Salesforce with external systems</li>
 	  <li>Apex development</li>
@@ -185,7 +193,7 @@ Nav Ul Li A:hover:after {
 I have achieved several certifications in Salesforce including:  
 </p>
  <h3 Class="Title1">Certifications:</h3>
-<ul>
+<ul class="text">
 	  <li>Salesforce Certified Administrator</li>
 	  <li>Salesforce Certified Advanced Administrator</li>
 	  <li>Salesforce Certified Platform Developer I</li>
